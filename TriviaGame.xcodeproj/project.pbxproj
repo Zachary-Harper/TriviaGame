@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		839420D92177BD5B00ADDAFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839420D82177BD5B00ADDAFD /* AppDelegate.swift */; };
-		839420DB2177BD5B00ADDAFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839420DA2177BD5B00ADDAFD /* ViewController.swift */; };
+		839420DB2177BD5B00ADDAFD /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839420DA2177BD5B00ADDAFD /* QuizViewController.swift */; };
 		839420DE2177BD5B00ADDAFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839420DC2177BD5B00ADDAFD /* Main.storyboard */; };
 		839420E02177BD5B00ADDAFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839420DF2177BD5B00ADDAFD /* Assets.xcassets */; };
 		839420E32177BD5B00ADDAFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839420E12177BD5B00ADDAFD /* LaunchScreen.storyboard */; };
+		83DE4C02217A2A8B00F28FB6 /* AddQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DE4C01217A2A8B00F28FB6 /* AddQuestionViewController.swift */; };
+		83DE4C04217A2B7000F28FB6 /* triviaQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DE4C03217A2B7000F28FB6 /* triviaQuestions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		839420D52177BD5B00ADDAFD /* TriviaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839420D82177BD5B00ADDAFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		839420DA2177BD5B00ADDAFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		839420DA2177BD5B00ADDAFD /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		839420DD2177BD5B00ADDAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		839420DF2177BD5B00ADDAFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839420E22177BD5B00ADDAFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		839420E42177BD5B00ADDAFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DE4C01217A2A8B00F28FB6 /* AddQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddQuestionViewController.swift; sourceTree = "<group>"; };
+		83DE4C03217A2B7000F28FB6 /* triviaQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = triviaQuestions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				839420D82177BD5B00ADDAFD /* AppDelegate.swift */,
-				839420DA2177BD5B00ADDAFD /* ViewController.swift */,
+				839420DA2177BD5B00ADDAFD /* QuizViewController.swift */,
 				839420DC2177BD5B00ADDAFD /* Main.storyboard */,
 				839420DF2177BD5B00ADDAFD /* Assets.xcassets */,
 				839420E12177BD5B00ADDAFD /* LaunchScreen.storyboard */,
 				839420E42177BD5B00ADDAFD /* Info.plist */,
+				83DE4C01217A2A8B00F28FB6 /* AddQuestionViewController.swift */,
+				83DE4C03217A2B7000F28FB6 /* triviaQuestions.swift */,
 			);
 			path = TriviaGame;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				839420DB2177BD5B00ADDAFD /* ViewController.swift in Sources */,
+				839420DB2177BD5B00ADDAFD /* QuizViewController.swift in Sources */,
+				83DE4C04217A2B7000F28FB6 /* triviaQuestions.swift in Sources */,
 				839420D92177BD5B00ADDAFD /* AppDelegate.swift in Sources */,
+				83DE4C02217A2A8B00F28FB6 /* AddQuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
